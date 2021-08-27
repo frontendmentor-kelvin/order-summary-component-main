@@ -16,8 +16,8 @@ Users should be able to:
 ![Mogile-view](./screenshots/mobile.png)
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://github.com/frontendmentor-kelvin/order-summary-component-main)
+- Solution URL: [Add solution URL here](https://github.com/frontendmentor-kelvin/order-summary-component-main)
+- Live Site URL: [Link](https://frontendmentor-kelvin.github.io/order-summary-component-main/)
 
 ## My process
 
