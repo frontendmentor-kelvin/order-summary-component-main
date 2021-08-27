@@ -1,0 +1,145 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-image: url('./images/pattern-background-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #card {
+    width: 90%;
+    height: 80%;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  body {
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #card {
+    height: 700px;
+    width: 400px;
+  }
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#container {
+  background-color: hsla(225, 100%, 94%, 0.801);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#card {
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#card-image {
+  background-image: url('./images/illustration-hero.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 30%;
+}
+
+#card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  padding: 0 20px;
+}
+ 
+#card-content {
+  text-align: center;
+  flex: 2;
+  padding: 0 30px;
+}
+#card-price {
+  flex: 2;
+}
+#card-button {
+  flex: 2;;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#card-content b {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+#card-content p {
+  color: hsl(224, 23%, 55%)
+}
+
+#card-price-item {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+}
+
+#card-button-payment {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  box-shadow: #b8affdbf 0px 12px 24px;
+}
+
+#card-button-cancel {
+  text-align: center;
+  font-weight: 700;
+  color: #777D8F;
+  padding: 14px;
+}
+
+#color {
+  color: hsl(225, 100%, 98%);
+  color: hsl(224, 23%, 55%);
+  color: hsl(223, 47%, 23%);
+  color: hsl(225, 100%, 94%);
+  color: hsl(245, 75%, 52%);
+}
+
+#button-change a {
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+
+#button-change a, #card-button-payment, #card-button-cancel b {
+  cursor: pointer;
+}
+#card-button-payment:hover {
+  background-color: #786BEE;
+}
+#button-change a:hover {
+  text-decoration: none;
+  color: #786BEE;
+}
+#card-button-cancel b:hover {
+  color: black;
+}
